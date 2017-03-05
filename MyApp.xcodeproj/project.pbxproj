@@ -14,6 +14,7 @@
 		2C1661F71E6C464C0091F100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1661F61E6C464C0091F100 /* Assets.xcassets */; };
 		2C1661FA1E6C464C0091F100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1661F81E6C464C0091F100 /* LaunchScreen.storyboard */; };
 		2C1662051E6C464C0091F100 /* MyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1662041E6C464C0091F100 /* MyAppUITests.swift */; };
+		2C1662101E6C4CE10091F100 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C16620F1E6C4CE10091F100 /* Settings.swift */; };
 		A0B2489C36DDF6FD6C7ACD79 /* Pods_MyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4766F3E2A40A59900C99941F /* Pods_MyApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		2C1662001E6C464C0091F100 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1662041E6C464C0091F100 /* MyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITests.swift; sourceTree = "<group>"; };
 		2C1662061E6C464C0091F100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C16620F1E6C4CE10091F100 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		4766F3E2A40A59900C99941F /* Pods_MyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDE480E9AD3AF83C0F4DE06 /* Pods-MyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppUITests/Pods-MyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93786703A14618A6AC46D06E /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				2C1661F61E6C464C0091F100 /* Assets.xcassets */,
 				2C1661F81E6C464C0091F100 /* LaunchScreen.storyboard */,
 				2C1661FB1E6C464C0091F100 /* Info.plist */,
+				2C16620F1E6C4CE10091F100 /* Settings.swift */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1662101E6C4CE10091F100 /* Settings.swift in Sources */,
 				2C1661F21E6C464C0091F100 /* ViewController.swift in Sources */,
 				2C1661F01E6C464C0091F100 /* AppDelegate.swift in Sources */,
 			);
@@ -543,6 +547,7 @@
 				2C16620B1E6C464C0091F100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C16620C1E6C464C0091F100 /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +556,7 @@
 				2C16620E1E6C464C0091F100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
