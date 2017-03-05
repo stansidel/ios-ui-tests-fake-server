@@ -10,6 +10,10 @@ import Foundation
 
 class Settings {
     var apiBaseUrl: String {
-        return "https://yandex.com"
+        if let uiTestsServerUrl = ProcessInfo.processInfo.environment["UI_TESTS_SERVER_BASE_URL"] {
+            return uiTestsServerUrl
+        } else {
+            return "https://yandex.com"
+        }
     }
 }
